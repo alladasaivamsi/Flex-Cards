@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    width: 100vw;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    color: white;
+    background-color: black;
+    padding: 0px 8px 0px 60px;
+}
+
+.links ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+} 
+
+a {
+    text-decoration: solid;
+    color: white;
+}
+
+.home {
+    color: grey;
+}
+
+.all-buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    
+}
+
+.container {
+    border: solid 1px;
+    border-radius: 8px;
+    border-color: grey;
+    color: grey;
+    background: black;
+}
+
+.container input {
+    background: transparent;
+    border: 4px;
+    outline: none;
+    padding: 6px 2px 6px 5px;
+}
+
+.login-button {
+    border: solid 1px;
+    border-radius: 8px;
+    border-color: white;
+    color: white;
+    background-color: black;
+    padding: 5px 8px 5px 8px;
+    cursor: pointer;
+
+}
+
+.signup-button {
+    border: solid 1px;
+    border-radius: 4px;
+    border-color: darkgoldenrod;
+    color: black;
+    background-color: darkgoldenrod;
+    padding: 5px 8px 5px 8px;
+    cursor: pointer;
+}
+
+.heading {
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 0px 0px 20px; 
+    font-weight: 100;  
+}
+
+.flex-cards {
+    margin: 0;    
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.flex .box {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: auto;
+    padding: 20px 20px 20px 0px;
+    background: lightblue;
+    margin: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+   
+}
+
+.flex-cards .flex .box .content .content-name {
+    margin-right: 0px;
+    padding: 100px 0 100px 0;
+    text-align: center;
+    background-color: darkslategrey;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+
+}
+
+.flex-cards .flex .box .content {
+    padding: 0px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 20px;
+    height: 55vh;
+}
+
+.flex-cards .flex .box .content .content-text {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.content-buttons .view-button {
+    color: black;
+    border: 2px solid;
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
+    padding: 8px;
+    margin-left: 13px;
+    margin-right: 0px;
+}
+
+.content-buttons .edit-button {
+    color: black;
+    border: 2px solid;
+    border-bottom-right-radius: 6px;
+    border-top-right-radius: 6px;
+    padding: 8px;
+    margin: -5px;
+}
+
+.content .content-footer .content-time {
+    padding: 100px; 
+    color: black;
+    padding: 8px;
+    margin: -5px;
+}
+
+.content-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* footer */
+
+.footer-container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 60px;
+    color: white;
+    background-color: black;
+    padding-left: 10px;
+}
+
+
+input {
+    border: 3px solid black;
+    height: 40px;
+    width: 500px;
+    border-radius: 10px;
+    padding: 0px 20px 0px 20px;
+}
+
+.footer-mail {
+    display: flex;
+    justify-content: right;
+    /* align-items: center; */
+    height: 60px;
+    color: white;
+    background-color: black;
+    padding-right: 10px;
+}
+
+.footer-mail .btn {
+    border: 3px solid white;
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    padding: 10px 10px 20px 10px;
+    margin-left: 20px;
+}
+
+.footer-mail input {
+    border: 2px solid black;
+    height: 30px;
+    width: 500px;
+    border-radius: 10px;
+    padding: 20px 20px 020px 20px;
+    
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    background-color: black;
+}
+
+.footer-mail {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 60px;
+    color: white;
+    background-color: black;
+    padding-right: 70px;
+}
